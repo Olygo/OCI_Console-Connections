@@ -40,6 +40,8 @@ users:
    passwd: copy_your_password_hash_here_without_quotes
 ```
 
+![05](./.images/05.png)
+
 ## 3. Credits
 
 Thanks to my colleague Richard for sharing [OCI-Cloudinit-Backdoors](https://github.com/AnykeyNL/OCI-Cloudinit-Backdoors)
