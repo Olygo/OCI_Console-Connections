@@ -6,7 +6,6 @@ This guide describes how to enable the Special Administration Console (SAC) on a
 
 - An OCI Windows instance
 - Administrative access to the instance
-- Console Connection set up in OCI (see [OCI Documentation](https://docs.oracle.com/en-us/iaas/Content/Compute/References/serialconsole.htm))
 
 ---
 
