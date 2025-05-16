@@ -81,7 +81,7 @@ Use `<Esc><Tab>` to cycle channels or `<Esc><Tab>0` to return to SAC.
 
 ---
 
-## Authenticate to Windows
+### Authenticate to Windows
 
 Once the CMD prompt is available, you'll be asked for credentials:
 
