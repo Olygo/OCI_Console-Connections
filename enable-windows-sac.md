@@ -29,19 +29,19 @@ bcdedit /set "{bootmgr}" timeout 15
 bcdedit /set "{bootmgr}" bootems yes
 ```
 
-### 3. Reboot the Server
+### 3. Launch Cloud Shell Console Connection
 
-Apply the configuration by rebooting:
+![02](./.images/02.png)
 
-```powershell
-shutdown -r -t 0
-```
+### 4. Reboot the instance from the OCI console
 
----
+![03](./.images/03.png)
 
-## 🔌 Connect via OCI Console Connection
+### 5. Check SAC is enabled
 
-After the server reboots, use the **OCI Console Connection** (Serial Console) to connect. You should see the SAC prompt during boot:
+After the instance reboot, you should see the SAC prompt:
+
+![04](./.images/04.png)
 
 ```
 Computer is booting, SAC started and initialized.
@@ -52,7 +52,9 @@ Use the "?" command for general help.
 SAC>
 ```
 
-### 📖 Useful SAC Commands
+---
+
+## Useful SAC Commands
 
 #### Show Help:
 ```text
@@ -79,7 +81,7 @@ Use `<Esc><Tab>` to cycle channels or `<Esc><Tab>0` to return to SAC.
 
 ---
 
-## 🔐 Authenticate to Windows
+## Authenticate to Windows
 
 Once the CMD prompt is available, you'll be asked for credentials:
 
@@ -89,8 +91,16 @@ Domain  :
 Password: ************
 ```
 
+```
+SAC>                                                                            
+Microsoft Windows [Version 10.0.20348.3453]
+(c) Microsoft Corporation. All rights reserved.
+
+C:\Windows\system32>
+```
+
 ---
 
-## 📚 Reference
+## Reference
 
 - [Enable Serial Console functionality for Windows Servers](https://learn.microsoft.com/en-us/troubleshoot/azure/virtual-machines/windows/serial-console-windows#enable-serial-console-functionality-for-windows-server)
