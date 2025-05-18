@@ -8,7 +8,7 @@ This repository provides detailed guides on how to use the OCI Console to connec
 
 - [Enabling Windows SAC](./enable-windows-sac.md)
 
-- [Serial Console Connection from_ Windows to Linux or Windows](./serial-windows-to-linux-or-windows.md)
+- [Serial Console Connection from Windows to Linux or Windows](./serial-windows-to-linux-or-windows.md)
 
 - [Serial Console Connection from Linux or MacOS to Linux or Windows](./serial-linux-macos-to-linux-or-windows.md)
 
