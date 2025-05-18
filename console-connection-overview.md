@@ -10,11 +10,11 @@ In OCI, **console connections** provide an alternative method for connecting to 
 
 When using a console connection, OCI connects at the hypervisor level, bypassing the instance’s network stack. Here’s how it’s facilitated:
 
-- **Direct Console Output**: OCI accesses the console output of the virtual machine (VM) via the hypervisor, not by logging into the operating system of the instance itself.
+- **Direct Console Output**: OCI accesses the console output of the compute instance via the hypervisor, not by logging into the operating system of the instance itself.
 
 - **Serial Console Access**: For Linux, the hypervisor provides serial console access, allowing you to interact with the instance at the kernel level. This interface typically appears as `/dev/ttyS0` or another serial device, where you can see boot logs, interact with the boot loader, or initiate recovery processes.
 
-	For Windows, the hypervisor provides serial console access when the [Special Administration Console (SAC) has been enabled](./Enabling_Windows_SAC.md).
+	For Windows, the hypervisor provides serial console access when the [Special Administration Console (SAC) has been enabled](./enable-windows-sac.md).
 
 - **VNC Over Hypervisor**: For instances with Desktop environment, the console connection provides an RDP-like interface. This approach works similarly to KVM/IPMI access in traditional data centers but is facilitated through OCI’s cloud infrastructure.
 
