@@ -15,3 +15,13 @@ This repository provides detailed guides on how to use the OCI Console to connec
 - [VNC Console Connection from Linux or MacOS to Linux or Windows](./vnc-linux-macos-to-linux-or-windows.md)
 
 - [VNC Console Connection from Windows to Linux or Windows](./vnc-windows-to-linux-or-windows.md)
+
+## OCI QuickConnect for macOS
+
+[OCI QuickConnect](https://github.com/Olygo/OCI_QuickConnect) is a macOS utility that makes OCI instance console connections easier to launch and troubleshoot.
+
+[![OCI_QuickConnect](./.images/OCI_QuickConnect.png)](https://github.com/Olygo/OCI_QuickConnect)
+
+## Contact
+
+[github@olygo.com](mailto:github@olygo.com)
